@@ -17,7 +17,7 @@ class AnimalTest {
         String actual = animal.toString();
 
         //THEN
-        assertEquals("Animal{name='Katze'}", actual);
+        assertEquals("Katze", actual);
     }
 
 }

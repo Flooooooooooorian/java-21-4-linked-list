@@ -18,7 +18,7 @@ class AnimalListItemTest {
         String actual = animalListItem.toString();
 
         //THEN
-        assertEquals("AnimalListItem{value=Animal{name='Tiger'}, next=null}", actual);
+        assertEquals("Tiger", actual);
     }
 
 }
